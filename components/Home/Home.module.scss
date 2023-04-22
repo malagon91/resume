@@ -1,3 +1,25 @@
-.home{
-  color: aqua;
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  header {
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    div {
+      font-size: 30px;
+        font-weight: 600;
+      .name {
+        color: #0081C9;
+        margin-bottom: 10px;
+      }
+      .title {
+
+      }
+    }
+  }
 }
