@@ -10,6 +10,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 20px;
     div {
       font-size: 30px;
         font-weight: 600;
@@ -20,6 +21,41 @@
       .title {
 
       }
+    }
+  }
+  article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    p{
+      text-align: center;
+      font-size: 25px;
+      font-weight: 400;
+      span{
+        color: #0081C9;
+      }
+    }
+  }
+
+  footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    min-width: 500px;
+    a{
+      box-sizing: border-box;
+      font-family: Roboto Mono,monospace;
+      padding: 0 24px;
+      list-style-type: none;
+      text-decoration: none;
+      font-size: 1.25em;
+      display: flex;
+      justify-content: space-between;
+      color: #0081C9;
+
     }
   }
 }

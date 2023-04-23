@@ -9,9 +9,9 @@ export default function index() {
     <Fragment>
       <Head>
         <title>Miguel Malagón</title>
-        <meta name="description" content="Personal site" />
+        <meta name="description" content="Miguel's personal site" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/logoTop.ico" />
       </Head>
       <Home />
     </Fragment>
