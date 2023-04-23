@@ -37,6 +37,9 @@ const Home = () => {
         >
           twitter
         </a>
+        <a href="https://about.me/malagon91" target={'_blank'} rel="noreferrer">
+          About me
+        </a>
       </footer>
     </div>
   )
